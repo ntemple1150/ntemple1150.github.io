@@ -1,0 +1,12 @@
+#aboutMe{
+    font-size: 20px;
+    color: white;
+    font-family: var(--font-two);
+    font
+}
+
+#aboutMeHeader{
+    color: white;
+    font-family: var(--font-three);
+    text-align: center;
+}

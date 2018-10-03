@@ -1,0 +1,17 @@
+#jumboStyle{
+    background: url('https://images.unsplash.com/photo-1516692935701-4f35bff8b9f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e8b07db9ad1b8626288bbbf77471558&auto=format&fit=crop&w=1650&q=80');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 500px;
+}
+
+#navLogo{
+    height: 30px;
+    width: 30px;
+    margin-left: 1.5%;
+}
+
+#nameWelcome{
+    font-family: var(--font-one)
+}

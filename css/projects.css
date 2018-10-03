@@ -1,0 +1,11 @@
+#projectPic{
+    overflow: hidden;
+    width: 100%;
+    border-radius: 10%;
+}
+
+
+#projectsSect{
+    height: 500px;
+    width: 100%;
+}

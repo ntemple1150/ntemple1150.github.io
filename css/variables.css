@@ -5,8 +5,13 @@
     --green: #10a503;
     --blue-green: #0ed6a4;
     --blue: #26509e;
+    --light-orange: #f1b187;
     --purple: #6a00b2;
     --brown: #8c7a51;
     --grey: #53565A;
     --black: #272727;
+    --font-one: 'Oswald', sans-serif;
+    --font-two: 'Quicksand', sans-serif;
+    --font-three: 'Lobster', cursive;
+
 }

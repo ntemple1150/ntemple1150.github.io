@@ -1,0 +1,13 @@
+#navstyle{
+    font-family: var(--font-three);
+
+}
+
+#listStyle{
+    margin-left: 75%;
+}
+
+#buttonFont{
+    font-family: var(--font-one);
+}
+
