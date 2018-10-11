@@ -1,0 +1,11 @@
+.footerBlurb{
+    margin-left: 32%;
+    color: black;
+    font-family: var(--font-one);
+    height: auto;
+    width: 100%;
+}
+
+.footerContainer{
+    color: #e9ecf0;
+}

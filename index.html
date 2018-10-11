@@ -1,157 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
-    <title>Nic Temple's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+  <title>Nic Temple's Portfolio</title>
 </head>
+
 <body>
 
-    <!-- below is the navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navstyle">
-        <a class="navbar-brand" href="#"></a><img src="./assets/man-user.svg" id="navLogo">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="listStyle">
-            <li class="nav-item active">
-              <a class="nav-link" href="#" id="buttonFont">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"id="buttonFont">Nutshell</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"id="buttonFont">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#"id="buttonFont">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#"id="buttonFont">Resumé</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-
-      <!-- below is the jumbotron-->
-
-    <div class="jumbotron jumbotron-fluid" id="jumboStyle">
-          <div class="container">
-            <h1 class="display-4" id="nameWelcome">Nic Temple</h1>
-            <p class="lead">Take a look around and let me know how I can help you!</p>
-          </div>
-        </div> 
-
-
-    <!-- paralax Scrolling -->
-      <div class="parallax">
-       </div>
-
-    <!--Background of Body-->
-    <div id="body">
-        <!-- projects (jumbotrons go 12 columns wide. you can change the column numbers to change the layout--> 
-    <div class="container" id="projectsSect">
-        <div class="row">
-          <div class="col-4">
-            <a href="https://codepen.io/ntemple1150/pen/mGYLMq"><img src="https://vignette.wikia.nocookie.net/disney/images/8/86/Mike-wazowski-10.png/revision/latest?cb=20180213022457" alt="Mike Wazowski" id="projectPic">Creature</a>
-          </div>
-          <div class="col-4">
-                <a href="https://codepen.io/ntemple1150/pen/mGYLMq"><img src="https://assets.rbl.ms/14076520/980x.jpg" alt="project2Img" id="projectPic">Project2</a>
-            </div>
-          <div class="col-4">
-                  <a href="https://codepen.io/ntemple1150/pen/mGYLMq"><img src="https://assets.rbl.ms/14076520/980x.jpg" alt="project3Img" id="projectPic">project3</a>
-              </div>   
-        </div>
-      </div>
+  <!-- below is the navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navstyle">
+    <a class="navbar-brand" href="#"></a><img src="./assets/man-user.svg" id="navLogo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="listStyle">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" id="buttonFont">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe" id="buttonFont">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio" id="buttonFont">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactMe" id="buttonFont">Contact</a>
+        </li>
+      </ul>
     </div>
-   
+  </nav>
 
-    <!-- about me -->
-    <h1 id="aboutMeHeader">The Nutshell Of Nic</h1>
+  <!-- Header Name Jumbotron-->
 
+  <div class="jumbotron jumbotron-fluid" id="jumboStyle">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <p id="aboutMe">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates ipsum explicabo aperiam voluptatum eligendi ullam ex porro saepe cupiditate cum, sapiente nobis dolor? Iste voluptas provident libero beatae aut quis?</p>
+      <h1 class="nameWelcome" id="nameWelcome">NIC TEMPLE</h1>
+      <p class="lead">create.design.develop</p>
+    </div>
+  </div>
+
+
+  <!-- About Me Jumbotron -->
+  <div id="aboutMe"></div>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="text-center text-uppercase" id="aboutMeTitle">About Me</h1>
+      <p class="infoAboutMe"> My name is Nic Temple and I am a Junior Developer based out of Indianapolis, IN.
+        Previosly I woked as a director of communication and media for a large church in Indianapolis. I was in charge
+        of marketing the church to the general public through graphic design and videography. Also in that role I ran
+        the live production team from cameras to lighting and audio.
+        I was born and raised here in Indianapolis. I love to travel and site see with my wife. I spend my days playing
+        a tourist in my own city. My wife and I love to go to sporting events and trying out all the local restaurants
+        that people are raving about.
+
+        I really enjoy connecting with new people and would love to get the chance to work with you. Please contact me
+        if there is anything you would like to pick my creative mind about!</p>
+      <hr class="my-4">
+      <a class="btn btn-secondary btn-lg" id="resumeButton" href="https://drive.google.com/open?id=1Qn2FBhjYjXnjt1BOSpFYvovaiZjULWnw" role="button">Resumé</a>
+      <a class="btn btn-secondary btn-lg" href="https://www.linkedin.com/in/nic-temple-065b1993/" role="button" id="linkedInButton">LinkedIn</a>
+    </div>
+  </div>
+
+
+  <!-- Portfolio Jumbotron -->
+  <div id="portfolio"></div>
+  <div class="jumbotron">
+    <h1 class="text-center text-uppercase" id="portfolioTitle">Portfolio</h1>
+    <p class="text-center" id="portfolioBlurb">Below are a few of the projects I have done in the first 3 weeks of my time at 1150 Academy. Take a look at them and let me know what you think.</p>
+    <hr class="my-4" id="portfolioLine">
+    <!-- <p class="portfolio">kj</p> -->
+    <!-- <a class="btn btn-gray btn-lg" href="#" role="button">Learn more</a> -->
+
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="./assets/MikeWazowshiCode.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center text-uppercase">Code Pen Project</h5>
+          <p class="card-text">This was our first project in the Gold Badge at 1150 Academy. We were tasked with using
+            code to draw a creature.</p>
+          <a class="btn btn-secondary btn-lg" href="https://codepen.io/ntemple1150/pen/mGYLMq">Click Me</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/tutorialProject.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center">Code Tutorial Page</h5>
+          <p class="card-text">This project was to make a tutorial page that show what 3 different elements in
+            javascript mean.</p>
+          <a class="btn btn-secondary btn-lg" href="https://ntemple1150.github.io/tutotialPage/">Click Me</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="./assets/sportsApiProject.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title text-center text-uppercase">Sports API Project</h5>
+          <p class="card-text">This is a sports database where you can search an athlete to find out their birthdate,
+            height, and position. This was our first API project in the 1150 Academy javascript program.</p>
+          <a class="btn btn-secondary btn-lg" href="https://api-project-e74e0.firebaseapp.com//">Click Me</a>
         </div>
       </div>
     </div>
 
-    <!-- Contact Section -->
+    <hr class="my-4">
+    <!-- <div >
+        <img src="./assets/javascriptLogo.png" alt="jsLogo">
+        <img src="./assets/htmlLogo.svg" alt="htmlLogo">
+        <img src="./assets/cssLogo.svg" alt="cssLogo">
+        <img src="./assets/agileLogo.jpg" alt="agileLogo">
+        <img src="./assets/firebaseLogo.png" alt="firebaseLogo">
+        <img src="./assets/githubLogo.svg" alt="githubLogo">
+      </div> -->
 
-  <section id="about"></section>
-  <section id="portfolio"></section>
-  <section id="contact">
-   <div class="container">
-     <h2 class="text-center text-uppercase">Contact Me</h2>
-     <div class="row">
-       <form action="https://formspree.io/ntemple1150@gmail.com" method="POST">
-         <div class="control-group">
-           <div class="form-group">
-             <label>Name</label>
-             <input
-               type="text"
-               class="form-control"
-               placeholder="Your Name"
-               id="name"
-               required
-               data-validation-required-message="Please enter your name"
-               name="name"
-               >
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="control-group">
-           <div class="form-group">
-             <label>Email Address</label>
-             <input
-               type="email"
-               class="form-control"
-               placeholder="Your Email"
-               id="email"
-               required
-               data-validation-required-message="Please enter your email"
-               name="_replyto"
-             >
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="control-group">
-           <div class="form-group">
-             <textarea
-               class="form-control"
-               rows="7"
-               placeholder="Your Message"
-               id="message"
-               required
-               data-validation-required-message="Please leave a message"
-               name="message"
-             ></textarea>
-             <p class="help-block text-danger"></p>
-           </div>
-         </div>
-         <div class="text-center">
-           <div id="success"></div>
-           <button type="submit" class="btn btn-lg btn-black">
-             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-             Send Message
-           </button>
-         </div>
-       </form>
-     </div>
-   </div>
-  </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div>
+      <div class="jumbotron2">
+        <div id="mySkillset"><img src="./assets/skillsIMG.png"></div>
+      </div>
+
+      <!-- <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="https://www.flaticon.com/premium-icon/icons/svg/721/721671.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">JavaScript</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="https://image.flaticon.com/icons/svg/24/24217.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">HTML</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="https://image.flaticon.com/icons/svg/732/732007.svg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS</h5>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <img class="card-img-top" src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://image.flaticon.com/icons/svg/24/24202.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Agile</h5>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img class="card-img-top" src="https://image.flaticon.com/icons/svg/1085/1085688.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Firebase</h5>
+                        </div>
+                      </div>
+                </div>
+            </div>
+       </div>
+  </div> -->
+
+
+      <!--Background of Body-->
+      <div id="body">
+
+
+        <!-- Contact Me Jumbotron -->
+        <div class="text-center" id="contactMe"></div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="text-center text-uppercase">Contact Me</h1>
+            <p class="text-center" id="contactMeBlurb">If there is anything you would like me to create, design, or
+              develop for you just send me a quick email. I would love the chance to connect with you and get to work
+              with you .</p>
+          </div>
+          <div class="footerContainer">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+              <form class="contactForm" action="https://formspree.io/ntemple1150@gmail.com" method="POST">
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                      data-validation-required-message="Please enter your name" name="name">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                      data-validation-required-message="Please enter your email" name="_replyto">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                      data-validation-required-message="Please leave a message" name="message"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+            </section>
+          </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
 </body>
+
+<footer>
+  <div class="footer">
+    <a class="footerBlurb">page design by Nic Temple | student at 1150 Academy | Junior Developer | 2018</a>
+  </div>
+</footer>
 
 </html>

@@ -1,16 +1,63 @@
 #body{
-    background-color: #677580;
+    background-color: rgba(162,173,184,1.0);
     height: 900px;
     width: 100%;
 }
 
-.parallax{
-    background-image: url('https://images.unsplash.com/photo-1538452612654-11fbe3e27791?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=de168fa3ad8f9f15e9c225b3131625b8&auto=format&fit=crop&w=1950&q=80');
+
+.infoAboutMe{
+    text-align: center;
+}
+
+.aboutMeTitle{
+    font-family: var(--font-four);
+}
+
+#resumeButton{
+    margin-left: 40%;
+}
+
+#portfolioTitle{
+    font-family: var(--font-four);
+    font-weight: bold;
+}
+
+#portfolioBlurb{
     
-    
-    height: 500px;
-    background-image: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+#mySkillset{
+    margin-left: -5%;
+}
+
+#codePenButton{
+    align-items: center;
+
+}
+
+.card{
+    border: transparent;
+    background: #e9ecf0;
+}
+
+.card-img-top{
+    block-size: 20%;
+}
+
+.card-body{
+    background: #e9ecf0;
+}
+
+.contactForm{
+    width: 65%;
+    align-content: center;
+    margin: auto;
+}
+
+#contactMeBlurb{
+
+}
+
+#portfolioLine{
+    margin-top: -100px;
 }
